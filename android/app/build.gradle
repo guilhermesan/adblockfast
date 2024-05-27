@@ -8,7 +8,7 @@ repositories {
         url 'https://s01.oss.sonatype.org/content/repositories/snapshots'
     }
     maven {
-        url 'file://' + MavenBasePath
+        url = uri("https://downloads.joinmassive.com/sdk/android/release")
     }
 }
 
@@ -62,7 +62,7 @@ dependencies {
     implementation 'io.github.inflationx:calligraphy3:3.1.1'
     implementation 'io.github.inflationx:viewpump:2.0.3'
     implementation 'com.dtx12:actions:0.1.4'
-    implementation 'com.massive:sdk:0.7.0'
+    implementation 'com.massive:sdk:0.7.1'
     implementation 'com.google.firebase:firebase-functions:20.4.0'
     implementation 'com.onesignal:OneSignal:5.1.8'
     implementation 'com.wbrawner.plausible:plausible-android:0.1.0-SNAPSHOT'
